@@ -101,6 +101,26 @@ body {
   background-color: #fff; */
 }
 
+/* .menu {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 5px 0;
+  top: 0;
+  z-index: 1;
+  backface-visibility: hidden;
+  background: currentColor;
+  transition: top 0.3s 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s, -o-transform 0.3s;
+} */
+/* .quote-btn {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-size: 16px;
+} */
 label.logo {
   font-size: 40px;
   padding: 2rem;
@@ -128,14 +148,18 @@ label.logo {
   color: black;
   width: 100px;
   text-align: center;
+  font-size: 16px;
 }
-.nav li :hover {
+.nav a:hover {
   background-color: black;
   border-radius: 20px;
-}
-.nav li a:hover {
   color: white;
+  font-size: 16px;
 }
+/* .nav a:hover {
+  color: white;
+  font-size: 16px;
+} */
 /* p {
   font-size: larger;
   padding: 200px;
@@ -153,6 +177,7 @@ label.logo {
 }
 .col-1 h1 {
   font-size: 120px;
+  font-weight: 700;
   margin: 10px;
   background: linear-gradient(
     92.93deg,
@@ -195,9 +220,9 @@ label.logo {
   text-align: center;
   margin-top: 23rem;
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  /* font-family: "Poppins", sans-serif; */
 }
-.details,
 .rest-word {
   opacity: 0.5;
 }
@@ -222,7 +247,7 @@ label.logo {
 .text {
   font-size: 32px;
   margin-top: 210px;
-  margin-left: 88px;
+  margin-left: 30px;
 }
 .opacity-para {
   font-size: 20px;
@@ -248,7 +273,7 @@ label.logo {
 }
 .heading-2 {
   margin-top: 80px;
-  font-size: 35px;
+  font-size: 32px;
   margin-left: 10rem;
 }
 
@@ -259,7 +284,7 @@ label.logo {
 .heading-4 {
   /* display: block ruby; */
   margin-left: 220px;
-  font-size: 35px;
+  font-size: 32px;
   margin-left: 19rem;
 }
 
@@ -274,7 +299,7 @@ label.logo {
   margin-top: 30rem;
 }
 .col-5 {
-  margin-left: 10rem;
+  margin-left: 105px;
 }
 .col-5 img {
   width: 529px;
@@ -284,14 +309,16 @@ label.logo {
 }
 .btn-primary {
   background-color: white;
-  width: 140px;
-  height: 60px;
-  border-radius: 30px;
-  margin-top: 20px;
-  font-size: 20px;
+  border-radius: 100px;
+  font-size: 24px;
   border-color: #000;
-  margin-left: 331px;
-  margin-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 92px;
 }
 .btn-primary:hover {
   background-color: #000;
@@ -300,12 +327,24 @@ label.logo {
 
 .btn-secondary {
   background-color: white;
+  border-radius: 100px;
+  font-size: 18px;
+  border-color: #000;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  float: left;
+  margin-top: 30px;
+  margin-right: 92px;
+
+  /* background-color: white;
   width: 130px;
   height: 60px;
   border-radius: 20px;
   margin-top: 20px;
   font-size: 18px;
-  border-color: #000;
+  border-color: #000; */
   /* margin-left: 152px; */
   /* margin-top: 50px; */
 }
@@ -338,7 +377,7 @@ label.logo {
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-left: 40rem;
+  margin-left: 45rem;
   margin-top: 10rem;
 }
 .footer-line {
