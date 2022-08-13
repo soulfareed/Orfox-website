@@ -149,13 +149,12 @@ label.logo {
   width: 100px;
   text-align: center;
   font-size: 16px;
-}
-.nav a:hover {
   background-color: black;
   border-radius: 20px;
   color: white;
   font-size: 16px;
 }
+
 /* .nav a:hover {
   color: white;
   font-size: 16px;
@@ -199,7 +198,6 @@ label.logo {
   margin-left: 155px;
   font-size: 15px;
   border-radius: 20px;
-
   text-align: center;
   margin-top: 40px;
   line-height: 50px;
@@ -319,8 +317,6 @@ label.logo {
   float: right;
   margin-top: 30px;
   margin-right: 92px;
-}
-.btn-primary:hover {
   background-color: #000;
   color: white;
 }
@@ -337,26 +333,10 @@ label.logo {
   float: left;
   margin-top: 30px;
   margin-right: 92px;
+  border-color: #000;
+  border: 0.5px solid;
+}
 
-  /* background-color: white;
-  width: 130px;
-  height: 60px;
-  border-radius: 20px;
-  margin-top: 20px;
-  font-size: 18px;
-  border-color: #000; */
-  /* margin-left: 152px; */
-  /* margin-top: 50px; */
-}
-.btn-secondary:hover {
-  background-color: #000;
-  color: white;
-}
-/* .branding {
-  font-family: Averta CY;
-  font-weight: 600;
-  font-style: Semibold;
-} */
 .branding {
   font-family: "Averta CY", sans-serif;
   font-size: 5rem;
